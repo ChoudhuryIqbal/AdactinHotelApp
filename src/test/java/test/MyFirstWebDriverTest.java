@@ -69,7 +69,9 @@ Thread.sleep(3000);
     Thread.sleep(4000
     );
     driver.findElement(By.cssSelector("#book_now")).click();
-
+///next logout
+    driver.findElement(By.linkText("Logout")).click();
+    driver.findElement(By.linkText("Click here to login again")).click();
 
 
 }
